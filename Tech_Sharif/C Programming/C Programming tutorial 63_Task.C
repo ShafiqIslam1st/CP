@@ -16,12 +16,12 @@ void remove_zero(char ch[])
 int main()
 {
     while(scanf("%s%s", n1, n2) != EOF){
-        printf("\n%s %s\n", n1, n2);
+      //  printf("\n%s %s\n", n1, n2);
         if(n1[0] == '0')
             remove_zero(n1);
         if(n2[0] == '0')
             remove_zero(n2);
-        printf("\n%s %s\n", n1, n2);
+     //   printf("\n%s %s\n", n1, n2);
 
         if(strlen(n1) > strlen(n2))
             printf("a > b\n");
